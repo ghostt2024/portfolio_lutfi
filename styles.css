@@ -227,7 +227,7 @@ body {
     overflow: hidden;
     border: 3px solid var(--accent-blue);
     box-shadow: 0 0 40px rgba(0, 153, 255, 0.3);
-    animation: glow-pulse 3s ease-in-out infinite;
+    animation: float-up-down 3s ease-in-out infinite;
 }
 
 .hero-img {
@@ -238,15 +238,16 @@ body {
     display: block;
 }
 
-@keyframes glow-pulse {
+@keyframes float-up-down {
     0%, 100% { 
+        transform: translateY(0px);
         box-shadow: 0 0 20px rgba(0, 153, 255, 0.3), 0 0 40px rgba(124, 58, 237, 0.1);
     }
     50% { 
-        box-shadow: 0 0 30px rgba(0, 153, 255, 0.5), 0 0 60px rgba(124, 58, 237, 0.3);
+        transform: translateY(-30px);
+        box-shadow: 0 20px 50px rgba(0, 153, 255, 0.5), 0 0 60px rgba(124, 58, 237, 0.3);
     }
 }
-
 /* ========================
    About Section
    ======================== */
@@ -896,4 +897,5 @@ body {
     .about-highlights {
         grid-template-columns: 1fr;
     }
+
 }
