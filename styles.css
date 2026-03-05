@@ -35,9 +35,7 @@ body {
     padding: 0 20px;
 }
 
-/* ========================
-   Navigation
-   ======================== */
+
 
 .navbar {
     position: fixed;
@@ -98,9 +96,7 @@ body {
     width: 100%;
 }
 
-/* ========================
-   Hero Section
-   ======================== */
+
 
 .hero {
     margin-top: 80px;
@@ -210,9 +206,7 @@ body {
     align-items: center;
 }
 
-/* ========================
-   Profile Image
-   ======================== */
+
 
 .profile-image {
     position: relative;
@@ -245,9 +239,7 @@ body {
     }
 }
 
-/* ========================
-   About Section
-   ======================== */
+
 
 .about {
     padding: 80px 0;
@@ -307,9 +299,6 @@ body {
     font-size: 0.95rem;
 }
 
-/* ========================
-   Skills Section
-   ======================== */
 
 .skills {
     padding: 80px 0;
@@ -418,9 +407,7 @@ body {
     color: var(--text-muted);
 }
 
-/* ========================
-   Certifications
-   ======================== */
+
 
 .certifications {
     margin-top: 4rem;
@@ -469,9 +456,7 @@ body {
     font-size: 0.95rem;
 }
 
-/* ========================
-   Projects Section
-   ======================== */
+
 
 .projects {
     padding: 80px 0;
@@ -568,9 +553,7 @@ body {
     font-weight: 500;
 }
 
-/* ========================
-   Education Section
-   ======================== */
+
 
 .education {
     padding: 80px 0;
@@ -658,9 +641,7 @@ body {
     font-weight: bold;
 }
 
-/* ========================
-   Contact Section
-   ======================== */
+
 
 .contact {
     padding: 80px 0;
@@ -718,9 +699,7 @@ body {
     text-decoration: underline;
 }
 
-/* ========================
-   Footer
-   ======================== */
+
 
 .footer {
     background-color: var(--primary-dark);
@@ -769,9 +748,6 @@ body {
     font-size: 0.9rem;
 }
 
-/* ========================
-   Responsive Design
-   ======================== */
 
 @media (max-width: 768px) {
     .navbar .container {
@@ -895,3 +871,4 @@ body {
         grid-template-columns: 1fr;
     }
 }
+
